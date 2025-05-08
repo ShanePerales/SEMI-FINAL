@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return print('Shane Kian Perales')
-    print('BSIT 1st 25')
-    print('System Integration')
-    print('Semi Final Exam')
+    return "Shane Kian Perales, BSIT 3 1st 25, System Integration, Semi-Final Exam"
+
+
+
 
 
 if __name__ == '__main__':
